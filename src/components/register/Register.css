@@ -1,0 +1,26 @@
+.register-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:absolute;
+    z-index: 5;
+}
+.register-form {
+    width: 23%;
+    height: 25%;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-width: 15rem;
+}
+.register-form-button {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+.register-error-box small {
+    height: 0.5rem;
+    color: red;
+}
